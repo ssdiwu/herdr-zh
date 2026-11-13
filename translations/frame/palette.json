@@ -1,0 +1,226 @@
+[
+  {
+    "from": "placeholder: \"Type a command…\"",
+    "to": "placeholder: \"输入命令…\""
+  },
+  {
+    "from": ".child(\"Esc\")",
+    "to": ".child(\"Esc\")"
+  },
+  {
+    "from": "title: \"Duplicate mod\", hint: \"Mod to copy; creates <name>-copy\"",
+    "to": "title: \"复制 mod\", hint: \"要复制的 mod；会创建 <name>-copy\""
+  },
+  {
+    "from": "\"Duplicate mod\"",
+    "to": "\"复制 mod\""
+  },
+  {
+    "from": "\"Recent\",",
+    "to": "\"最近\","
+  },
+  {
+    "from": "\"Tab\",",
+    "to": "\"标签\","
+  },
+  {
+    "from": "\"Pane\",",
+    "to": "\"面板\","
+  },
+  {
+    "from": "\"Space\",",
+    "to": "\"空间\","
+  },
+  {
+    "from": "\"Layout\",",
+    "to": "\"布局\","
+  },
+  {
+    "from": "\"Terminal\",",
+    "to": "\"终端\","
+  },
+  {
+    "from": "\"Agent\",",
+    "to": "\"智能体\","
+  },
+  {
+    "from": "\"Window\",",
+    "to": "\"窗口\","
+  },
+  {
+    "from": "\"App\",",
+    "to": "\"应用\","
+  },
+  {
+    "from": "\"New tab\",",
+    "to": "\"新建标签\","
+  },
+  {
+    "from": "\"Go to space or tab…\"",
+    "to": "\"跳转到空间或标签…\""
+  },
+  {
+    "from": "\"Rename tab\",",
+    "to": "\"重命名标签\","
+  },
+  {
+    "from": "\"Close tab\",",
+    "to": "\"关闭标签\","
+  },
+  {
+    "from": "\"Next tab\",",
+    "to": "\"下一个标签\","
+  },
+  {
+    "from": "\"Previous tab\",",
+    "to": "\"上一个标签\","
+  },
+  {
+    "from": "\"Split right\",",
+    "to": "\"向右拆分\","
+  },
+  {
+    "from": "\"Split down\",",
+    "to": "\"向下拆分\","
+  },
+  {
+    "from": "\"Close pane\",",
+    "to": "\"关闭面板\","
+  },
+  {
+    "from": "\"Zoom pane\",",
+    "to": "\"缩放面板\","
+  },
+  {
+    "from": "\"New space\",",
+    "to": "\"新建空间\","
+  },
+  {
+    "from": "\"Rename space\",",
+    "to": "\"重命名空间\","
+  },
+  {
+    "from": "\"Close space\",",
+    "to": "\"关闭空间\","
+  },
+  {
+    "from": "\"Next space\",",
+    "to": "\"下一个空间\","
+  },
+  {
+    "from": "\"Previous space\",",
+    "to": "\"上一个空间\","
+  },
+  {
+    "from": "\"Next layout\",",
+    "to": "\"下一个布局\","
+  },
+  {
+    "from": "\"Reset layout\",",
+    "to": "\"重置布局\","
+  },
+  {
+    "from": "\"Duplicate layout\",",
+    "to": "\"复制布局\","
+  },
+  {
+    "from": "\"Duplicate mod\",",
+    "to": "\"复制 mod\","
+  },
+  {
+    "from": "\"New terminal\",",
+    "to": "\"新建终端\","
+  },
+  {
+    "from": "\"Copy\",",
+    "to": "\"复制\","
+  },
+  {
+    "from": "\"Paste\",",
+    "to": "\"粘贴\","
+  },
+  {
+    "from": "\"Next agent\",",
+    "to": "\"下一个智能体\","
+  },
+  {
+    "from": "\"Previous agent\",",
+    "to": "\"上一个智能体\","
+  },
+  {
+    "from": "\"Minimize window\",",
+    "to": "\"最小化窗口\","
+  },
+  {
+    "from": "\"Maximize window\",",
+    "to": "\"最大化窗口\","
+  },
+  {
+    "from": "\"Close window\",",
+    "to": "\"关闭窗口\","
+  },
+  {
+    "from": "\"Settings\",",
+    "to": "\"设置\","
+  },
+  {
+    "from": "\"Keys\",",
+    "to": "\"快捷键\","
+  },
+  {
+    "from": "\"Welcome\",",
+    "to": "\"欢迎\","
+  },
+  {
+    "from": "\"What's new\",",
+    "to": "\"新功能\","
+  },
+  {
+    "from": "\"Reset to the default screen\",",
+    "to": "\"恢复到默认界面\","
+  },
+  {
+    "from": "\"Zoom in\",",
+    "to": "\"放大\","
+  },
+  {
+    "from": "\"Zoom out\",",
+    "to": "\"缩小\","
+  },
+  {
+    "from": "\"Reset zoom\",",
+    "to": "\"重置缩放\","
+  },
+  {
+    "from": "\"Quit Herdr\",",
+    "to": "\"退出 Herdr\","
+  },
+  {
+    "from": "`Focus pane ${d}`",
+    "to": "`聚焦面板 ${DIR_ZH[d]}`"
+  },
+  {
+    "from": "`Swap pane ${d}`",
+    "to": "`交换面板 ${DIR_ZH[d]}`"
+  },
+  {
+    "from": "`Theme: ${n.replace(/-/g, \" \")}`",
+    "to": "`主题：${n.replace(/-/g, \" \")}`"
+  },
+  {
+    "from": "`Layout: ${t}`",
+    "to": "`布局：${t}`"
+  },
+  {
+    "from": "`Nothing matches \"${this.query}\". Places are in the picker.`",
+    "to": "`没有匹配「${this.query}」的内容。位置在跳转面板里。`"
+  },
+  {
+    "from": "[\"mod.open\", { name: \"picker\" },",
+    "to": "[\"mod.open\", { name: \"picker-zh\" },"
+  },
+  {
+    "from": "const GROUPS = [",
+    "to": "const DIR_ZH = { left: \"左\", right: \"右\", up: \"上\", down: \"下\" };\nconst GROUPS = ["
+  }
+]

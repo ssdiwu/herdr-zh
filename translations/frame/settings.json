@@ -1,0 +1,402 @@
+[
+  {
+    "from": "{ id: \"look\", title: \"外观\", icon: \"palette\" }",
+    "to": "{ id: \"look\", title: \"外观\", icon: \"palette\" }"
+  },
+  {
+    "from": "title: \"Look\"",
+    "to": "title: \"外观\""
+  },
+  {
+    "from": "title: \"Keyboard\"",
+    "to": "title: \"键盘\""
+  },
+  {
+    "from": "title: \"Machines\"",
+    "to": "title: \"机器\""
+  },
+  {
+    "from": "title: \"Alerts\"",
+    "to": "title: \"提醒\""
+  },
+  {
+    "from": "title: \"Updates\"",
+    "to": "title: \"更新\""
+  },
+  {
+    "from": "title: \"Privacy\"",
+    "to": "title: \"隐私\""
+  },
+  {
+    "from": "this.heading(t, \"Layout\")",
+    "to": "this.heading(t, \"布局\")"
+  },
+  {
+    "from": "this.heading(t, \"Theme\")",
+    "to": "this.heading(t, \"主题\")"
+  },
+  {
+    "from": "this.heading(t, \"Size and fonts\")",
+    "to": "this.heading(t, \"尺寸与字体\")"
+  },
+  {
+    "from": "this.heading(t, \"Option key\")",
+    "to": "this.heading(t, \"Option 键\")"
+  },
+  {
+    "from": "this.heading(t, \"Machines\")",
+    "to": "this.heading(t, \"机器\")"
+  },
+  {
+    "from": "this.heading(t, \"Sounds\")",
+    "to": "this.heading(t, \"声音\")"
+  },
+  {
+    "from": "this.heading(t, \"Usage data\")",
+    "to": "this.heading(t, \"使用数据\")"
+  },
+  {
+    "from": "[null, \"System\"],",
+    "to": "[null, \"跟随系统\"],"
+  },
+  {
+    "from": "[\"light\", \"Light\"],",
+    "to": "[\"light\", \"浅色\"],"
+  },
+  {
+    "from": "[\"dark\", \"Dark\"],",
+    "to": "[\"dark\", \"深色\"],"
+  },
+  {
+    "from": "this.row(t, \"Appearance\", \"Light or dark, or as your system is now.\"",
+    "to": "this.row(t, \"外观\", \"浅色、深色，或跟随系统。\""
+  },
+  {
+    "from": ".child(\"For the layout you're in: each layout keeps its own light and dark theme.\")",
+    "to": ".child(\"当前布局：每个布局各自保存浅色与深色主题。\")"
+  },
+  {
+    "from": ".child(\"Dark\")",
+    "to": ".child(\"深色\")"
+  },
+  {
+    "from": ".child(\"Light\")",
+    "to": ".child(\"浅色\")"
+  },
+  {
+    "from": "\"Everything: terminals, panels, text.\"",
+    "to": "\"全部：终端、面板、文字。\""
+  },
+  {
+    "from": "\"This layout sets its own; yours shows in the others.\"",
+    "to": "\"此布局自带设置；你的设置在其他布局中生效。\""
+  },
+  {
+    "from": "\"Zoom\",",
+    "to": "\"缩放\","
+  },
+  {
+    "from": "this.button(t, \"st-zoom-reset\", \"Reset\"",
+    "to": "this.button(t, \"st-zoom-reset\", \"重置\""
+  },
+  {
+    "from": "fontRow(\"font\", \"font_size\", \"Terminal font\"",
+    "to": "fontRow(\"font\", \"font_size\", \"终端字体\""
+  },
+  {
+    "from": "fontRow(\"ui_font\", null, \"Interface font\"",
+    "to": "fontRow(\"ui_font\", null, \"界面字体\""
+  },
+  {
+    "from": "placeholder: \"Type to search fonts\"",
+    "to": "placeholder: \"搜索字体\""
+  },
+  {
+    "from": "`Default (${def})`",
+    "to": "`默认（${def}）`"
+  },
+  {
+    "from": "[\"off\", \"Types characters\"]",
+    "to": "[\"off\", \"输入字符\"]"
+  },
+  {
+    "from": "[\"left\", \"Left Option is Alt\"]",
+    "to": "[\"left\", \"左 Option 视为 Alt\"]"
+  },
+  {
+    "from": "[\"right\", \"Right Option is Alt\"]",
+    "to": "[\"right\", \"右 Option 视为 Alt\"]"
+  },
+  {
+    "from": "\"Automatic (Alt on US keyboards)\"",
+    "to": "\"自动（美式键盘上为 Alt）\""
+  },
+  {
+    "from": ".child(\"Use Option for terminal shortcuts or to type accents and special characters.\")",
+    "to": ".child(\"用 Option 触发终端快捷键，或输入重音与特殊字符。\")"
+  },
+  {
+    "from": "this.row(t, \"This computer\"",
+    "to": "this.row(t, \"本机\""
+  },
+  {
+    "from": "\"hc version unknown\"",
+    "to": "\"hc 版本未知\""
+  },
+  {
+    "from": "this.copiedLogin === command ? \"Copied\" : \"Copy\"",
+    "to": "this.copiedLogin === command ? \"已复制\" : \"复制\""
+  },
+  {
+    "from": "this.button(t, `st-m-cancel-${m.name}`, \"Cancel\"",
+    "to": "this.button(t, `st-m-cancel-${m.name}`, \"取消\""
+  },
+  {
+    "from": "this.button(t, `st-m-confirm-${m.name}`, \"Remove machine\"",
+    "to": "this.button(t, `st-m-confirm-${m.name}`, \"移除机器\""
+  },
+  {
+    "from": "this.button(t, `st-m-save-${m.name}`, \"Save\"",
+    "to": "this.button(t, `st-m-save-${m.name}`, \"保存\""
+  },
+  {
+    "from": "`Remove ${m.name}? Its terminals keep running there.`",
+    "to": "`移除 ${m.name}？那边的终端仍会继续运行。`"
+  },
+  {
+    "from": ".child(\"New name (addresses using the old name stop working)\")",
+    "to": ".child(\"新名称（用旧名称的地址将失效）\")"
+  },
+  {
+    "from": ".child(\"Your computers, reached over ssh. Their terminals keep running when you disconnect.\")",
+    "to": ".child(\"通过 ssh 连接你的其他电脑。断开后那边的终端仍会继续运行。\")"
+  },
+  {
+    "from": ".child(\"No other machines yet.\")",
+    "to": ".child(\"还没有其他机器。\")"
+  },
+  {
+    "from": "this.button(t, \"st-m-add\", \"Add a machine\"",
+    "to": "this.button(t, \"st-m-add\", \"添加机器\""
+  },
+  {
+    "from": ".child(\"needs a login: run\")",
+    "to": ".child(\"需要登录：请运行\")"
+  },
+  {
+    "from": ".child(\"Reading machines…\")",
+    "to": ".child(\"正在读取机器…\")"
+  },
+  {
+    "from": "\"Couldn't read machines.\"",
+    "to": "\"无法读取机器列表。\""
+  },
+  {
+    "from": "`Renamed ${machine} to ${name.trim()}.`",
+    "to": "`已将 ${machine} 重命名为 ${name.trim()}。`"
+  },
+  {
+    "from": "`Removed ${machine}; its terminals keep running there.`",
+    "to": "`已移除 ${machine}；那边的终端仍会继续运行。`"
+  },
+  {
+    "from": ".child(\"Want your own sounds? Ask your agent to set sounds.done and sounds.blocked in settings.json to an MP3.\")",
+    "to": ".child(\"想用自定义声音？让你的智能体在 settings.json 里把 sounds.done 和 sounds.blocked 指向一个 MP3。\")"
+  },
+  {
+    "from": "this.row(t, \"An agent needs you\"",
+    "to": "this.row(t, \"智能体需要你处理\""
+  },
+  {
+    "from": "this.row(t, \"An agent finished\"",
+    "to": "this.row(t, \"智能体已完成\""
+  },
+  {
+    "from": "this.button(t, \"st-play-blocked\", \"Play\"",
+    "to": "this.button(t, \"st-play-blocked\", \"播放\""
+  },
+  {
+    "from": "this.button(t, \"st-play-done\", \"Play\"",
+    "to": "this.button(t, \"st-play-done\", \"播放\""
+  },
+  {
+    "from": "\"When an agent needs you, and when one finishes while you're not looking. A note shows in the corner either way.\"",
+    "to": "\"智能体需要你时，以及你不在看时某个智能体完成时提醒你。两种情况都会在角落显示提示。\""
+  },
+  {
+    "from": "\"Herdr's sound\"",
+    "to": "\"Herdr 的声音\""
+  },
+  {
+    "from": "\"Play sounds\",",
+    "to": "\"播放声音\","
+  },
+  {
+    "from": "this.button(t, id, \"Check now\"",
+    "to": "this.button(t, id, \"立即检查\""
+  },
+  {
+    "from": "\"Checking\\u2026\"",
+    "to": "\"检查中…\""
+  },
+  {
+    "from": "\"\\u2713 Up to date\"",
+    "to": "\"✓ 已是最新\""
+  },
+  {
+    "from": ".child(\"Herdr looks for both every hour and tells you in the corner. herdr-core runs your terminals, so they keep running through its updates.\")",
+    "to": ".child(\"Herdr 每小时检查两者并在角落提示。herdr-core 负责运行你的终端，所以更新时它们照常运行。\")"
+  },
+  {
+    "from": "primary(\"st-app-update\", \"Restart to update\"",
+    "to": "primary(\"st-app-update\", \"重启以更新\""
+  },
+  {
+    "from": "primary(\"st-core-retry\", \"Try again\"",
+    "to": "primary(\"st-core-retry\", \"重试\""
+  },
+  {
+    "from": "primary(\"st-core-update\", \"Update herdr-core\"",
+    "to": "primary(\"st-core-update\", \"更新 herdr-core\""
+  },
+  {
+    "from": "\"Updating\\u2026 your terminals keep running.\"",
+    "to": "\"更新中…你的终端仍会继续运行。\""
+  },
+  {
+    "from": "\"Updating…\"",
+    "to": "\"更新中…\""
+  },
+  {
+    "from": "\"Renaming…\"",
+    "to": "\"重命名中…\""
+  },
+  {
+    "from": "\"Removing…\"",
+    "to": "\"移除中…\""
+  },
+  {
+    "from": "this.button(t, `st-m-update-${m.name}`, \"Update\"",
+    "to": "this.button(t, `st-m-update-${m.name}`, \"更新\""
+  },
+  {
+    "from": "for (const [action, label] of [[\"rename\", \"Rename\"], [\"rm\", \"Remove\"]])",
+    "to": "for (const [action, label] of [[\"rename\", \"重命名\"], [\"rm\", \"移除\"]])"
+  },
+  {
+    "from": ".child(\"Copying this computer's herdr-core. Its terminals keep running.\")",
+    "to": ".child(\"正在复制本机的 herdr-core。它的终端仍会继续运行。\")"
+  },
+  {
+    "from": "`${u.app.ready} is ready. Restart to switch now; it also switches when you quit.`",
+    "to": "`${u.app.ready} 已就绪。现在重启即可切换，退出时也会切换。`"
+  },
+  {
+    "from": "`${c.ready} is ready. Your terminals keep running through it.`",
+    "to": "`${c.ready} 已就绪。你的终端会一直运行。`"
+  },
+  {
+    "from": "`The update failed: ${c.error}`",
+    "to": "`更新失败：${c.error}`"
+  },
+  {
+    "from": "`Managed by ${c.managed}: update it there.`",
+    "to": "`由 ${c.managed} 管理：请在那里更新。`"
+  },
+  {
+    "from": "`Off for now: ${s.off_because} is set where Herdr started.`",
+    "to": "`目前已关闭：${s.off_because} 在 Herdr 启动的位置被设置了。`"
+  },
+  {
+    "from": "` Checked at ${at(u.checked)}.`",
+    "to": "` 检查于 ${at(u.checked)}。`"
+  },
+  {
+    "from": "`${Math.round(s.zoom * 100)}%`",
+    "to": "`${Math.round(s.zoom * 100)}%`"
+  },
+  {
+    "from": "\"What we send\",",
+    "to": "\"我们发送的内容\","
+  },
+  {
+    "from": "this.button(t, \"st-telemetry-show\", this.showData ? \"Hide\" : \"Show\"",
+    "to": "this.button(t, \"st-telemetry-show\", this.showData ? \"隐藏\" : \"显示\""
+  },
+  {
+    "from": ".child(\"Nothing is collected or sent while it's off.\")",
+    "to": ".child(\"关闭时不会收集或发送任何数据。\")"
+  },
+  {
+    "from": "this.report(t, \"st-td\", \"Today so far\"",
+    "to": "this.report(t, \"st-td\", \"今天为止\""
+  },
+  {
+    "from": "\"A draft: it changes until the day ends (UTC), then goes out once.\"",
+    "to": "\"草稿：当天（UTC）结束前会不断变化，之后只发送一次。\""
+  },
+  {
+    "from": "\"A build from source: it updates with git, not here.\"",
+    "to": "\"从源码构建的版本：它随 git 更新，不在这里更新。\""
+  },
+  {
+    "from": "\"Not checked: a build from source looks for no updates.\"",
+    "to": "\"未检查：从源码构建的版本不检查更新。\""
+  },
+  {
+    "from": "\"No successful check. Check your connection and try again.\"",
+    "to": "\"检查未成功。请检查连接后重试。\""
+  },
+  {
+    "from": "\"Once a day: which agents and features you use, how many spaces and tabs, your system and Herdr's version. Never what's in your terminals, never names of files, folders or projects.\"",
+    "to": "\"每天一次：你用过哪些智能体和功能、有多少空间和标签、你的系统与 Herdr 版本。绝不包含终端内容，也绝不包含文件、目录或项目名称。\""
+  },
+  {
+    "from": "\"Exactly what leaves your computer, word for word.\"",
+    "to": "\"逐字列出离开你电脑的数据。\""
+  },
+  {
+    "from": "\"This build never sends: it's built from source. You can still see what a release would send.\"",
+    "to": "\"这个版本从不发送：它从源码构建。你仍可查看发行版会发送什么。\""
+  },
+  {
+    "from": "\"Sent as is, soon.\"",
+    "to": "\"将原样发送，很快。\""
+  },
+  {
+    "from": "`Last sent: ${s.last_sent.report.day}`",
+    "to": "`上次发送：${s.last_sent.report.day}`"
+  },
+  {
+    "from": "`Sent ${at(s.last_sent.at)}.`",
+    "to": "`已于 ${at(s.last_sent.at)} 发送。`"
+  },
+  {
+    "from": "`Waiting to send: ${r.day}`",
+    "to": "`等待发送：${r.day}`"
+  },
+  {
+    "from": "`Up to date.${checked}`",
+    "to": "`已是最新。${checked}`"
+  },
+  {
+    "from": "this.button(t, \"st-feedback\", \"Send feedback\"",
+    "to": "this.button(t, \"st-feedback\", \"发送反馈\""
+  },
+  {
+    "from": ".child(\"Settings\")",
+    "to": ".child(\"设置\")"
+  },
+  {
+    "from": "\"It didn't work.\"",
+    "to": "\"没有成功。\""
+  },
+  {
+    "from": "\"What's new\"",
+    "to": "\"新功能\""
+  },
+  {
+    "from": "run(\"mod.open\", { name: \"machine-add\" })",
+    "to": "run(\"mod.open\", { name: \"machine-add-zh\" })"
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "from": "\"Welcome to Herdr\"",
+    "to": "\"欢迎使用 Herdr\""
+  },
+  {
+    "from": "\"Appearance\"",
+    "to": "\"外观\""
+  },
+  {
+    "from": "\"Size\"",
+    "to": "\"尺寸\""
+  },
+  {
+    "from": "\"Changes\",",
+    "to": "\"更改\","
+  },
+  {
+    "from": "\"Files\",",
+    "to": "\"文件\","
+  },
+  {
+    "from": "\"Add a machine\"",
+    "to": "\"添加机器\""
+  },
+  {
+    "from": "\"One key opens everything\"",
+    "to": "\"一个快捷键打开全部\""
+  },
+  {
+    "from": "\"Drag to move\"",
+    "to": "\"拖动以移动\""
+  },
+  {
+    "from": "\"Coming from herdr?\"",
+    "to": "\"从 herdr 迁移过来？\""
+  },
+  {
+    "from": "\"More examples in Settings\"",
+    "to": "\"更多示例见设置\""
+  },
+  {
+    "from": "\"Your terminals, outside this window too\"",
+    "to": "\"终端也在这个窗口之外运行\""
+  },
+  {
+    "from": "\"BETA\"",
+    "to": "\"测试版\""
+  },
+  {
+    "from": "\"This computer\",",
+    "to": "\"本机\","
+  },
+  {
+    "from": "\"Not now\"",
+    "to": "\"现在不做\""
+  },
+  {
+    "from": "\"Open a space\",",
+    "to": "\"打开一个空间\","
+  },
+  {
+    "from": "\"Make it yours\",",
+    "to": "\"让它成为你的\","
+  },
+  {
+    "from": "\"Choose your panels\",",
+    "to": "\"选择你的面板\","
+  },
+  {
+    "from": "\"Add your other machines\",",
+    "to": "\"添加你的其他机器\","
+  },
+  {
+    "from": "\"Not now? Add machine is at the bottom of the sidebar too.\"",
+    "to": "\"现在不做？侧栏底部也有「添加机器」。\""
+  },
+  {
+    "from": "\"This is a new app on a new core. Your herdr workspaces stay where they are; nothing moves over.\"",
+    "to": "\"这是运行在新内核上的新应用。你的 herdr 工作区仍在原处，不会迁移。\""
+  },
+  {
+    "from": "\"Same idea as before: spaces, tabs and terminals.\"",
+    "to": "\"和以前一样的思路：空间、标签和终端。\""
+  },
+  {
+    "from": "\"Want your keybinds and settings carried over? Give your agent this line:\"",
+    "to": "\"想把快捷键和设置搬过来？把这一句给你的智能体：\""
+  },
+  {
+    "from": "\"Herdr runs your terminals in the background\"",
+    "to": "\"Herdr 在后台运行你的终端\""
+  },
+  {
+    "from": "\"Agents tell you when they need you\"",
+    "to": "\"智能体需要你时会告诉你\""
+  },
+  {
+    "from": "\"Agents can start helpers\"",
+    "to": "\"智能体可以启动辅助进程\""
+  },
+  {
+    "from": "\"Your other machines, in the same window\"",
+    "to": "\"其他机器，也在同一个窗口里\""
+  },
+  {
+    "from": "\"A ring while one works, \\u201cNeeds you\\u201d when it asks something, a sound when it finishes.\"",
+    "to": "\"工作时转圈，需要你时提示「需要你处理」，完成时响一声。\""
+  },
+  {
+    "from": "\"They show up under the agent that started them. Click one to watch it.\"",
+    "to": "\"它们会出现在启动它们的智能体下面。点一个就能看着它跑。\""
+  },
+  {
+    "from": "\"A server or a Mac mini runs its own herdr-core, so its agents keep going even while this laptop sleeps.\"",
+    "to": "\"服务器或 Mac mini 会跑自己的 herdr-core，所以即使你合上笔记本，那边的智能体也继续工作。\""
+  },
+  {
+    "from": "\"Pick a host from your ssh config. Herdr connects, installs herdr-core there if it's missing, and lists that machine in the sidebar with its own spaces.\"",
+    "to": "\"从你的 ssh 配置里选一台主机。Herdr 会连过去，必要时装上 herdr-core，然后在侧栏里列出这台机器和它自己的空间。\""
+  },
+  {
+    "from": "\"Herdr comes with a couple of panels. Turn one on and it appears beside your terminals. Drag this window aside to see it. Later, the buttons in the tab bar open and close them.\"",
+    "to": "\"Herdr 自带几个面板。打开一个，它就会出现在终端旁边。把这个窗口拖到一边就能看到它。之后标签栏上的按钮可以随时开关。\""
+  },
+  {
+    "from": "\"The folder you're in as a tree. Open a file to read it, highlighted.\"",
+    "to": "\"以树形显示你所在的目录。打开一个文件即可阅读，并高亮显示。\""
+  },
+  {
+    "from": "\"Ask your agent for a board of your agents, your pull requests, a cost meter, or the sidebar on the right. Not sure what's possible? Ask it that too.\"",
+    "to": "\"让你的智能体做一个智能体看板、PR 列表、成本计，或把侧栏放到右边。不知道能做什么？也这么问它。\""
+  },
+  {
+    "from": "\"It opens the command palette, with every action by name and its key. It works the same in every layout.\"",
+    "to": "\"它会打开命令面板，每个动作都按名称列出并附上快捷键。在任何布局里都一样。\""
+  },
+  {
+    "from": "\"Every part of this window is a layout or a mod: plain files your agent can change or add to. Give it this line to start:\"",
+    "to": "\"这个窗口的每一部分都是布局或 mod：都是普通文件，你的智能体可以改、也可以加。把这一句给它作为开始：\""
+  },
+  {
+    "from": "\"Then ask for anything: \\u201cmove the sidebar to the right\\u201d, \\u201ca panel with my pull requests\\u201d.\"",
+    "to": "\"然后就可以随便提要求了：「把侧栏移到右边」「做一个我 PR 的面板」。\""
+  },
+  {
+    "from": "\"hc is herdr-core's command line. In any terminal, hc ls lists everything running and hc attach t3 jumps into one. Your agents can use it to start and watch other agents for you. Tell them to read hc's help, or make it a skill.\"",
+    "to": "\"hc 是 herdr-core 的命令行。在任何终端里，hc ls 列出所有正在运行的东西，hc attach t3 可以跳进去。你的智能体可以用它替你启动和查看其他智能体。让它们读一下 hc 的帮助，或者把它做成技能。\""
+  },
+  {
+    "from": "\"Settings \\u203a Look has more layouts to try or start from, Herdr 98 among them. Your agent can copy any of them and change anything.\"",
+    "to": "\"设置 › 外观里还有更多布局可以试用或作为起点，其中包括 Herdr 98。你的智能体可以复制其中任何一个并随意修改。\""
+  },
+  {
+    "from": "\"Something off or missing? Settings \\u203a Send feedback. We read every one.\"",
+    "to": "\"有不对或缺失的地方？设置 › 发送反馈。我们每条都会看。\""
+  },
+  {
+    "from": "\"What your agents changed: every file with its diff, and a commit box.\"",
+    "to": "\"你的智能体改了什么：每个文件及其差异，还有一个提交框。\""
+  },
+  {
+    "from": "\"Read ~/.config/herdr-app/AGENTS.md, then tell me what you can change in Herdr.\"",
+    "to": "\"读 ~/.config/herdr-app/AGENTS.md，然后告诉我你在 Herdr 里能改什么。\""
+  },
+  {
+    "from": "\"Read `herdr-app --skill`, then migrate my keybinds and settings from ~/.config/herdr/config.toml\"",
+    "to": "\"读 `herdr-app --skill`，然后从 ~/.config/herdr/config.toml 迁移我的快捷键和设置\""
+  },
+  {
+    "from": ".child(\"needs a login: run\")",
+    "to": ".child(\"需要登录：请运行\")"
+  },
+  {
+    "from": "run(\"mod.open\", { name: \"machine-add\" })",
+    "to": "run(\"mod.open\", { name: \"machine-add-zh\" })"
+  }
+]

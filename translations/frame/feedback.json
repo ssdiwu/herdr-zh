@@ -1,0 +1,90 @@
+[
+  {
+    "from": ".child(\"Send feedback\")",
+    "to": ".child(\"发送反馈\")"
+  },
+  {
+    "from": "\"What happened? What did you expect?\"",
+    "to": "\"发生了什么？你期望是什么样？\""
+  },
+  {
+    "from": "\"Email (optional)\"",
+    "to": "\"邮箱（可选）\""
+  },
+  {
+    "from": ".child(\"Sent. Thanks for helping us improve Herdr.\")",
+    "to": ".child(\"已发送。感谢你帮助我们改进 Herdr。\")"
+  },
+  {
+    "from": ".child(\"Drafted by an agent: read it before sending\")",
+    "to": ".child(\"由智能体起草：发送前请阅读\")"
+  },
+  {
+    "from": ".child(\"This build was made from source and doesn't send feedback. Use a release build.\")",
+    "to": ".child(\"这个版本从源码构建，不发送反馈。请使用发行版。\")"
+  },
+  {
+    "from": "\"Up to 3 screenshots.\"",
+    "to": "\"最多 3 张截图。\""
+  },
+  {
+    "from": "\"Add screenshot\"",
+    "to": "\"添加截图\""
+  },
+  {
+    "from": "\"Your message (up to 4000 characters). Paste or drop screenshots, up to 3.\"",
+    "to": "\"你的留言（最多 4000 字）。可粘贴或拖入截图，最多 3 张。\""
+  },
+  {
+    "from": "\"Email: only if you want a reply\"",
+    "to": "\"邮箱：仅在你希望收到回复时填写\""
+  },
+  {
+    "from": "\"What we send: exactly this JSON, plus the screenshots above. No logs or install ID.\"",
+    "to": "\"我们发送的内容：就是这份 JSON，加上上面的截图。不含日志或安装 ID。\""
+  },
+  {
+    "from": "placeholder: \"What happened? What did you expect?\"",
+    "to": "placeholder: \"发生了什么？你期望是什么样？\""
+  },
+  {
+    "from": "placeholder: \"Email (optional)\"",
+    "to": "placeholder: \"邮箱（可选）\""
+  },
+  {
+    "from": "this.error = \"Up to 3 screenshots.\"",
+    "to": "this.error = \"最多 3 张截图。\""
+  },
+  {
+    "from": "this.button(t, \"feedback-add\", \"Add screenshot\"",
+    "to": "this.button(t, \"feedback-add\", \"添加截图\""
+  },
+  {
+    "from": "label(\"Email: only if you want a reply\")",
+    "to": "label(\"邮箱：仅在你希望收到回复时填写\")"
+  },
+  {
+    "from": "this.button(t, \"feedback-cancel\", this.sent ? \"Done\" : \"Cancel\"",
+    "to": "this.button(t, \"feedback-cancel\", this.sent ? \"完成\" : \"取消\""
+  },
+  {
+    "from": "this.button(t, \"feedback-send\", this.sending ? \"Sending…\" : \"Send\"",
+    "to": "this.button(t, \"feedback-send\", this.sending ? \"发送中…\" : \"发送\""
+  },
+  {
+    "from": "\"Send feedback\"",
+    "to": "\"发送反馈\""
+  },
+  {
+    "from": "\"Sent. Thanks for helping us improve Herdr.\"",
+    "to": "\"已发送。感谢你帮助我们改进 Herdr。\""
+  },
+  {
+    "from": "\"Drafted by an agent: read it before sending\"",
+    "to": "\"由智能体起草：发送前请阅读\""
+  },
+  {
+    "from": "\"This build was made from source and doesn't send feedback. Use a release build.\"",
+    "to": "\"这个版本从源码构建，不发送反馈。请使用发行版。\""
+  }
+]

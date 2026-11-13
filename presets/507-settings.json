@@ -1,0 +1,12 @@
+{
+  "zoom": 1,
+  "sounds": {
+    "enabled": true
+  },
+  "font_ligatures": false,
+  "minimum_contrast": 1,
+  "font_size": 12,
+  "font": "Maple Mono Normal NF CN",
+  "ui_font": "Maple Mono Normal NF CN",
+  "telemetry": false
+}

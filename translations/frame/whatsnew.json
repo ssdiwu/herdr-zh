@@ -1,0 +1,22 @@
+[
+  {
+    "from": ".child(\"What's new in Herdr\")",
+    "to": ".child(\"Herdr 新功能\")"
+  },
+  {
+    "from": ".child(\"Got it\")",
+    "to": ".child(\"知道了\")"
+  },
+  {
+    "from": ".child(\"Something off or missing? Settings › Send feedback.\")",
+    "to": ".child(\"有不对或缺失的地方？设置 › 发送反馈。\")"
+  },
+  {
+    "from": "\"Got it\"",
+    "to": "\"知道了\""
+  },
+  {
+    "from": "\"Something off or missing? Settings › Send feedback.\"",
+    "to": "\"有不对或缺失的地方？设置 › 发送反馈。\""
+  }
+]
